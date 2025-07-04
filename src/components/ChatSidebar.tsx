@@ -308,6 +308,11 @@ const [confirmDeleteText, setConfirmDeleteText] = useState('');
             required
             minLength={6}
           />
+           <div className="text-center">
+                    <Link to="/forgot-password" className="text-deepseek-lightblue font-semibold hover:underline">
+                      Dont Know Current Password?
+                    </Link>
+                  </div>
 
           <div className="flex gap-2">
             <Button type="submit" className="w-full" disabled={loading}>
